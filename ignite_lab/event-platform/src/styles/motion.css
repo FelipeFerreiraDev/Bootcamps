@@ -1,0 +1,16 @@
+#react {
+    transform-origin: center center;
+    transform-box: fill-box;
+    animation: rotate1 4s ease infinite alternate;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(40deg);
+        width: 300px;
+        height: 300px;
+    }
+}

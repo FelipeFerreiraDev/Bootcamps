@@ -1,4 +1,4 @@
-# 💻 Ignite Labs - Rocketseat
+# 💻 Ignite Lab - Rocketseat
 
 ![Resultado final do projeto](src/assets/preview.png)
 

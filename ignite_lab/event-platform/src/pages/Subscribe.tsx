@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
-import '../styles/motion.css'
+import '../styles/motion.css';
+import code from '../assets/code.png';
 
 export function Subscribe() {
     const navigate = useNavigate()
@@ -102,7 +103,7 @@ export function Subscribe() {
                     </div>
                 </div>
                 
-                <img src="/src/assets/code.png" alt="code background" />
+                <img src={code} alt="code background" />
             </div>
         </>
     )

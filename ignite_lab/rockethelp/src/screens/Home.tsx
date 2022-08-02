@@ -1,5 +1,4 @@
 import { HStack, IconButton, VStack, useTheme, Text, Heading, FlatList, Center } from 'native-base';
-import { color } from 'native-base/lib/typescript/theme/styled-system';
 import { ChatTeardropText, SignOut } from 'phosphor-react-native';
 import { useState } from 'react';
 
